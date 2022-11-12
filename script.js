@@ -4,7 +4,9 @@ var peso = 50;
 var illum = 7;
 
 function init() {
-    document.getElementById()
+    console.log("a");
+    document.getElementById("temp").innerText = temp;
+    document.getElementById("salub").innerHTML = salubrita;
+    document.getElementById("peso").innerHTML = peso;
+    document.getElementById("illum").innerHTML = illum;
 }
-
-init();

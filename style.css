@@ -22,6 +22,9 @@ button {
     height: 40px;
     border-radius: 20px;
 }
+button:hover {
+    cursor: pointer;
+}
 #btnScalda, #btnIllumina {
     background-color: yellow;
 }
