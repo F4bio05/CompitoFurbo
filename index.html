@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fish Bowl</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h2>Fish Bowl</h2>
+        <h3>
+            <p>Ora</p>
+            <p id="ora">7:00</p>
+        </h3>
+        <table>
+            <tr>
+                <td>Temperatura (C°)</td>
+                <td>Salubrità (punti)</td>
+                <td>Peso (g)</td>
+                <td>Illuminazione (h)</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="btnScalda" class="active" onclick="scalda()">Scalda</button>
+                </td>
+                <td>
+                    <button id="btnPulisci">Pulisci</button>
+                </td>
+                <td>
+                    <button id="btnNutri">Nutri</button>
+                </td>
+                <td>
+                    <button id="btnIllumina" class="active">Illumina</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <div id="bowl">
+                        <img src="fish.png">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <button id="btnReset">RESET</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <button id="btnVisita">Visita micio (?)</button>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

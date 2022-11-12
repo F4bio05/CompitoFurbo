@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #66FFCC;
+}
+table {
+    text-align: center;
+    width: 600px;
+    border: 1px solid black;
+}
+#bowl {
+    background-image: url("bowl.png");
+    height: 500px;
+    width: 600px;
+}
+p {
+    display: inline;
+}
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+}
+#btnScalda, #btnIllumina {
+    background-color: yellow;
+}
